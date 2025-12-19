@@ -86,3 +86,25 @@ body {
   align-items: center ;
   height: 10vh;
 }
+
+.cta.button {
+  background-color : #e74c3c1;
+  color : white;
+  font-weight : bold;
+  pading : 8px 15px;
+  border-radius : 5px;
+  transition : backgroun-color 0.3s ease;
+}
+
+.cta.button : hover{
+  background-color: #c0392b;
+}
+
+.nav.cta a{
+  text-decoration : none;
+}
+
+.menu-tugas {
+  display: flex;
+  gap : 20px;
+}
